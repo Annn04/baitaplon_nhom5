@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KeHoachDetailActivity"
+    android:background="#FFC107">
+    <include layout="@layout/toolbardetailcv"
+        android:id="@+id/toolbardetailcv"/>
+<!--    <RelativeLayout-->
+<!--        android:layout_below="@id/toolbardetailcv"-->
+<!--        android:background="#FFC107"-->
+<!--        android:paddingStart="10dp"-->
+<!--        android:paddingTop="20dp"-->
+<!--        android:paddingBottom="20dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_startday_detail1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="ngày bắt đầu"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--        <TextView-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_below="@id/tv_startday_detail1"-->
+<!--            android:id="@+id/tv_startday_detail"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="ngày bắt đầu"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <View-->
+<!--            android:id="@+id/view_line"-->
+<!--            android:layout_width="3dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_toEndOf="@id/tv_startday_detail"-->
+<!--            android:background="#ff00" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_kehoach_detail1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_toEndOf="@id/view_line"-->
+<!--            android:text="công việc:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_kehoach_detail"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_toEndOf="@id/tv_kehoach_detail1"-->
+<!--            android:text="đi chơi"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_mota_detail1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_kehoach_detail"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_toEndOf="@id/view_line"-->
+<!--            android:text="Mô tả công việc:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_mota_detail"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_kehoach_detail"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_toEndOf="@id/tv_mota_detail1"-->
+<!--            android:text="đi chơi cầu lông"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_nguoitao_detail1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_mota_detail"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_toEndOf="@id/view_line"-->
+<!--            android:text="Người tạo công việc:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tv_nguoitao_detail"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tv_mota_detail"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_toEndOf="@id/tv_nguoitao_detail1"-->
+<!--            android:text="hoàng trung hiếu"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+<!--    </RelativeLayout>-->
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/toolbardetailcv"
+                android:id="@+id/tv_startday_detail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ngày bắt đầu"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/tv_startday_detail1"
+                android:id="@+id/tv_startday_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ngày bắt đầu"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_marginTop="20dp"
+                android:id="@+id/view_line"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/tv_startday_detail"
+                android:background="#ff00" />
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/view_line"
+                android:id="@+id/tv_kehoach_detail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="công việc:"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/tv_kehoach_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_below="@id/tv_kehoach_detail1"
+                android:text="đi chơi"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/tv_mota_detail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_kehoach_detail"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Mô tả công việc:"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/tv_mota_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_mota_detail1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="đi chơi cầu lông"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/tv_nguoitao_detail1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_mota_detail"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Người tạo công việc:"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_nguoitao_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_nguoitao_detail1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="hoàng trung hiếu"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+</RelativeLayout>

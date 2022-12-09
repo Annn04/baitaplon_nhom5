@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SingupActivity"
+    android:background="#FF5722">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:background="@drawable/img_bg"
+        android:id="@+id/img_practive_signup"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/img_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/edt_tennguoidung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_practive_signup"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_edt_login"
+        android:hint="Tên người dùng"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/edt_sodienthoai_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_tennguoidung"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_edt_login"
+        android:hint="Số điện thoại"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/edt_matkhau_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_sodienthoai_signup"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_edt_login"
+        android:hint="Mật khẩu"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/edt_xacnhanmatkhau_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_matkhau_signup"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bg_edt_login"
+        android:hint="Xác nhận Mật khẩu"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_xacnhanmatkhau_signup"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#249EA0"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Đăng kí" />
+    <TextView
+        android:id="@+id/tv_dacotk"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_below="@id/btn_signup"
+        android:text="Đã có tài khoản"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginEnd="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_below="@id/tv_dacotk"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</RelativeLayout>

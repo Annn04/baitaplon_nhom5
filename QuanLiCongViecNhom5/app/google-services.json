@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "273155604612",
+    "firebase_url": "https://hihi-71c44-default-rtdb.firebaseio.com",
+    "project_id": "hihi-71c44",
+    "storage_bucket": "hihi-71c44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273155604612:android:466f475cc617a608eac2d1",
+        "android_client_info": {
+          "package_name": "com.example.hihi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273155604612-t1f0l7mfmptlk2r1fv8uo2d9rua96h2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM9r-PP_-9e9nNVby-uM-aWTvB6YWKFik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273155604612-t1f0l7mfmptlk2r1fv8uo2d9rua96h2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273155604612:android:c62611d190e4c4d6eac2d1",
+        "android_client_info": {
+          "package_name": "com.example.quanlicongviecnhom5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273155604612-t1f0l7mfmptlk2r1fv8uo2d9rua96h2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM9r-PP_-9e9nNVby-uM-aWTvB6YWKFik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273155604612-t1f0l7mfmptlk2r1fv8uo2d9rua96h2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

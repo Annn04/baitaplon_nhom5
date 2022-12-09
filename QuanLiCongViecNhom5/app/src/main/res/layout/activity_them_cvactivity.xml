@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemCVActivity"
+    android:background="#FF5722">
+
+    <include
+        android:id="@+id/toolbar_themcv"
+        layout="@layout/toolbarthemcv" />
+    <TextView
+        android:id="@+id/tv_themcv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@id/toolbar_themcv"
+        android:text="Thêm công việc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_themcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_themcv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@id/tv_themcv"
+        android:background="@drawable/bg_edt_login"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/tv_mota"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@id/tv_themcv"
+        android:text="Mô tả"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_mota"
+        android:padding="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_edt_login"
+        android:layout_below="@id/edt_themcv"
+        android:layout_toEndOf="@id/tv_themcv"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+    <TextView
+        android:id="@+id/tv_nguoitao"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_below="@id/tv_mota"
+        android:text="Người tạo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_nguoitao"
+        android:padding="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_edt_login"
+        android:layout_below="@id/edt_mota"
+        android:layout_toEndOf="@id/tv_themcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_ngaybatdau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nguoitao"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:text="Ngày bắt đầu"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edt_ngaybatdau"
+        android:padding="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/bg_edt_login"
+        android:layout_below="@id/edt_nguoitao"
+        android:layout_toEndOf="@id/tv_themcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_luu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_ngaybatdau"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#249EA0"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Lưu" />
+</RelativeLayout>

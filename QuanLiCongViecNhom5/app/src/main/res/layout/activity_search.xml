@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    android:background="#FF5722">
+    <include layout="@layout/toolbarsearch"
+        android:id="@+id/toolbar_search"/>
+    <RelativeLayout
+        android:layout_below="@id/toolbar_search"
+        android:id="@+id/rlt_search"
+        android:paddingStart="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_edt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/bg_edt_login"
+            android:layout_toStartOf="@id/img_search1"
+            android:id="@+id/edt_search"
+            android:hint="Search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/img_search1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_search" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_search"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rlt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
